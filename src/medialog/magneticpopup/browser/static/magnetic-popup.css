@@ -289,11 +289,12 @@ img.mfp-img {
   cursor: auto; }
 
 .mfp-title {
-  text-align: left;
+  text-align: center;
   line-height: 18px;
-  color: #f3f3f3;
+  color: #4f4f4f;
   word-wrap: break-word;
-  padding-right: 36px; }
+  padding-left: 6px; 
+  padding-right: 6px; }
 
 .mfp-image-holder .mfp-content {
   max-width: 100%; }
