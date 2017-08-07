@@ -1,7 +1,7 @@
 /* Magnific Popup CSS */
 /* cursor on hover */
 #content-core img:hover {
-	cursor: pointer;
+	cursor: zoom-in;
 }
 
 /* zoom effects */
