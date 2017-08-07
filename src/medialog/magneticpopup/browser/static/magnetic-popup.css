@@ -283,19 +283,19 @@ img.mfp-img {
 .mfp-bottom-bar {
   margin-top: -36px;
   position: absolute;
-  top: 100%;
+  top: 36px;
   left: 0;
   width: 100%;
   cursor: auto; }
 
 .mfp-title {
-  text-align: center;
+  text-align: left;
   line-height: 18px;
   color: #4f4f4f;
   word-wrap: break-word;
   padding-top: 6px;
   padding-left: 6px; 
-  padding-right: 6px; }
+  padding-right: 36px; }
 
 .mfp-image-holder .mfp-content {
   max-width: 100%; }
