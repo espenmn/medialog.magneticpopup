@@ -1,0 +1,5 @@
+====================
+medialog.magneticpopup
+====================
+
+User documentation
