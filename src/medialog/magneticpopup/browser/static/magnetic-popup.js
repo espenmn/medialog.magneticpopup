@@ -6,7 +6,13 @@ require([
     type: 'image',
     callbacks: {
         elementParse: function(item) {
-            item.src = item.el.attr('src');
+            itemsrc = item.el.attr('src');
+            try {
+                item.src = itemsrc.split("/@@images")[0];
+            }
+            catch(err) {
+    			item.src = itemsrc;
+			}
         }
     }
     });
