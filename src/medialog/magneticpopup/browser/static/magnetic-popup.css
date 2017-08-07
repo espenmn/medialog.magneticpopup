@@ -138,8 +138,8 @@ button.mfp-close {
   font-size: 28px;
   font-family: Arial, Baskerville, monospace; }
   .mfp-close:hover, .mfp-close:focus {
-    opacity: 1;
-    filter: alpha(opacity=100); }
+    opacity: 0.5;
+    filter: alpha(opacity=50); }
   .mfp-close:active {
     top: 1px; }
 
@@ -175,8 +175,8 @@ button.mfp-close {
   .mfp-arrow:active {
     margin-top: -54px; }
   .mfp-arrow:hover, .mfp-arrow:focus {
-    opacity: 1;
-    filter: alpha(opacity=100); }
+    opacity: 0.5;
+    filter: alpha(opacity=50); }
   .mfp-arrow:before, .mfp-arrow:after, .mfp-arrow .mfp-b, .mfp-arrow .mfp-a {
     content: '';
     display: block;
