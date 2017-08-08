@@ -6,7 +6,7 @@
 medialog.magneticpopup
 ==============================================================================
 
-Tell me what your product does
+Adds popup to images in #content 
 
 Features
 --------
@@ -56,14 +56,14 @@ Contribute
 
 - Issue Tracker: https://github.com/collective/medialog.magneticpopup/issues
 - Source Code: https://github.com/collective/medialog.magneticpopup
-- Documentation: https://docs.plone.org/foo/bar
+ 
 
 
 Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+ 
 
 
 License
