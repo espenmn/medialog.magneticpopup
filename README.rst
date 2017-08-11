@@ -16,6 +16,7 @@ Features
 Examples
 --------
 This add-on can be seen in action at the following sites:
+
 - classroom Plone site http://sci.mpls.k12.mn.us/ 
 
 Documentation
@@ -41,8 +42,8 @@ Installation
         medialog.magneticpopup
 
 
-1. Next, run: ``bin/buildout``.
-1. Finally, go to your site setup/addons and enable this new addon.
+2. Next, run: ``bin/buildout``.
+3. Finally, go to your site setup/addons and enable this new addon.
 
 Contribute
 ----------
