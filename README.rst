@@ -7,17 +7,21 @@ medialog.magneticpopup
 ==============================================================================
 Adds popup to images in #content 
 
+
 Features
 --------
-- Images embedded in a page, as well as the image shown on the ...jpg/view page, popup in a jquery style lightbox. 
+- Images embedded in a page, as well as the image shown on the ...jpg/view page, will popup in a jquery style lightbox. 
 - If using a responsive theme, the popup image responds to the display size.
-- upon clicking, the image pops up to it full size if display size permits, otherwise it scales down to size of display.
+- Upon clicking on embedded image, it pops up to its full size if display size permits, otherwise it scales down to size of display.
+- Title is taken from caption that was added to image or if none, from file name.
+
 
 Examples
 --------
 This add-on can be seen in action at the following sites:
 
 - classroom Plone site http://sci.mpls.k12.mn.us/ 
+
 
 Documentation
 -------------
