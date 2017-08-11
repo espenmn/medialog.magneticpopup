@@ -9,15 +9,14 @@ Adds popup to images in #content
 
 Features
 --------
-- Images embedded in a page, as well as the image shown on the ...jpg/view page popup in a jquery style lightbox. 
-- If using a resonsive theme, the popup image responds to the display size.
+- Images embedded in a page, as well as the image shown on the ...jpg/view page, popup in a jquery style lightbox. 
+- If using a responsive theme, the popup image responds to the display size.
 - upon clicking, the image pops up to it full size if display size permits, otherwise it scales down to size of display.
 
 Examples
 --------
 This add-on can be seen in action at the following sites:
-- http://sci.mpls.k12.mn.us/ classroom Plone site
-
+- classroom Plone site http://sci.mpls.k12.mn.us/ 
 
 Documentation
 -------------
@@ -32,7 +31,7 @@ This product has been translated into
 
 Installation
 ------------
-Install medialog.magneticpopup by adding it to your buildout::
+1. Install medialog.magneticpopup by adding it to your buildout::
 
     [buildout]
 
@@ -42,8 +41,8 @@ Install medialog.magneticpopup by adding it to your buildout::
         medialog.magneticpopup
 
 
-and then running ``bin/buildout``
-Finally, go to your site setup/addons and enable this new addon.
+1. Next, run: ``bin/buildout``.
+1. Finally, go to your site setup/addons and enable this new addon.
 
 Contribute
 ----------
