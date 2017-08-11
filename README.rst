@@ -5,12 +5,11 @@
 ==============================================================================
 medialog.magneticpopup
 ==============================================================================
-
 Adds popup to images in #content 
 
 Features
 --------
-
+- This addon causes all images embedded in a page, as well as the .jpg/view image to popup in a lightbox style popup. To go from the
 - Can be bullet points
 
 
