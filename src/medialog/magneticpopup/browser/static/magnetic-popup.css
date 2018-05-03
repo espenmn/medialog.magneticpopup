@@ -1,3 +1,5 @@
+/* @override http://localhost:8080/Mega/++plone++magneticpopup/++unique++2019-11-26%2000%3A00%3A00.000001/magnetic-popup.css */
+
 /* Magnific Popup CSS */
 /* cursor on hover */
 #content-core img:hover {
@@ -287,6 +289,7 @@ img.mfp-img {
 
 /* The shadow behind the image */
 .mfp-figure {
+
   line-height: 0; }
   .mfp-figure:after {
     content: '';
@@ -328,7 +331,7 @@ img.mfp-img {
   padding-right: 36px; }
 
 .mfp-image-holder .mfp-content {
-  max-width: 100%; }
+  max-width: 92%; }
 
 .mfp-gallery .mfp-image-holder .mfp-figure {
   cursor: pointer; }
