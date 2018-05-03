@@ -2,6 +2,13 @@ Changelog
 =========
 
 
+1.0a2 (05.05.2018)
+------------------
+
+- Change img selector to .image-left etc (local images)
+  [espenmn]
+
+
 1.0a2 (08.08.2017)
 ------------------
 
