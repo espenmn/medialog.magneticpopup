@@ -2,7 +2,7 @@ require([
     'jquery',
     '++plone++magneticpopup/jquery.magnific-popup-min'
 ], function($) {
-   $('#content-core img').magnificPopup({
+   $('#content img').magnificPopup({
     type: 'image',
     cursor: 'mfp-zoom-out-cur', 
     mainClass: 'mfp-with-zoom', 
