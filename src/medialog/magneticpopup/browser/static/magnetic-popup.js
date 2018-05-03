@@ -6,6 +6,11 @@ require([
     type: 'image',
     cursor: 'mfp-zoom-out-cur', 
     mainClass: 'mfp-with-zoom', 
+    gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+	},
     zoom: {
     enabled: true, // By default it's false, so don't forget to enable it
     duration: 200, // duration of the effect, in milliseconds
