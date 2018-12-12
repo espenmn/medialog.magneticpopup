@@ -5,40 +5,38 @@
 ==============================================================================
 medialog.magneticpopup
 ==============================================================================
-
 Adds popup to images in #content 
+
 
 Features
 --------
-
-- Can be bullet points
+- Images embedded in a page, as well as the image shown on the ...jpg/view page, will popup in a jquery style lightbox. 
+- If using a responsive theme, the popup image responds to the display size.
+- Upon clicking on embedded image, it pops up to its full size if display size permits, otherwise it scales down to size of display.
+- Title is taken from caption that was added to image or if none, from file name.
 
 
 Examples
 --------
-
 This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
+
+- classroom Plone site http://sci.mpls.k12.mn.us/ 
 
 
 Documentation
 -------------
-
 Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
 
 
 Translations
 ------------
-
 This product has been translated into
-
 - Klingon (thanks, K'Plai)
 
 
 Installation
 ------------
-
-Install medialog.magneticpopup by adding it to your buildout::
+1. Install medialog.magneticpopup by adding it to your buildout::
 
     [buildout]
 
@@ -48,8 +46,8 @@ Install medialog.magneticpopup by adding it to your buildout::
         medialog.magneticpopup
 
 
-and then running ``bin/buildout``
-
+2. Next, run: ``bin/buildout``.
+3. Finally, go to your site setup/addons and enable this new addon.
 
 Contribute
 ----------
