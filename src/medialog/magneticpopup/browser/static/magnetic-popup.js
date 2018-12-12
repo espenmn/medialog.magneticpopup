@@ -31,4 +31,5 @@ require([
         }
     }
     });
+    $('.mfp-image-link').magnificPopup();
 });
