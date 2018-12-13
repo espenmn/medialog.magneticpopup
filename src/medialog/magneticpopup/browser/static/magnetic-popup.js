@@ -2,7 +2,7 @@ require([
     'jquery',
     '++plone++magneticpopup/jquery.magnific-popup-min'
 ], function($) {
-   $('img.image-inline, img.image-left, img.image-right, .wall-of-images img').magnificPopup({
+   $('img.image-inline, img.image-left, img.image-right').magnificPopup({
     type: 'image',
     cursor: 'mfp-zoom-out-cur', 
     mainClass: 'mfp-with-zoom', 
@@ -32,4 +32,27 @@ require([
     }
     });
     $('.mfp-image-link').magnificPopup();
+    $('.wall-of-images').each(function() { // the containers for all your galleries
+    	$(this).magnificPopup({
+        	delegate: 'img', // the selector for gallery item
+        	type: 'image',
+        	opener: function(openerElement) {
+      			return openerElement.is('img') ? openerElement : openerElement.find('img');
+       		},
+        	gallery: {
+        	  enabled:true
+        	},
+        	callbacks: {
+        elementParse: function(item) {
+            itemsrc = item.el.attr('src');
+            try {
+                item.src = itemsrc.split("/@@images")[0];
+            }
+            catch(err) {
+    			item.src = itemsrc;
+			}
+        }
+    }
+    	});
+	});
 });
