@@ -23,7 +23,8 @@ require([
         elementParse: function(item) {
             itemsrc = item.el.attr('src');
             try {
-                item.src = itemsrc.split("/@@images")[0];
+                image_url = itemsrc.split('/@@images')[0];
+                item.src =  image_url + '/@@images/image';
             }
             catch(err) {
     			item.src = itemsrc;

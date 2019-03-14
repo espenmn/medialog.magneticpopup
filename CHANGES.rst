@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.0a5 (14.03.2019)
+------------------
+
+- fix popup url so it works with news items
+  [espenmn]
+
 
 1.0a3 (12.12.2018)
 ------------------
