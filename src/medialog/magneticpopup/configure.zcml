@@ -10,7 +10,12 @@
 
   <include package=".browser" />
 
-
+  <adapter
+    for="* * *"
+    factory="medialog.magneticpopup.adapters.JavaScriptSettings"
+    provides="Products.CMFPlone.interfaces.IPatternsSettings"
+    name="magnetic_popup_imagesize" />
+    
   <genericsetup:registerProfile
       name="default"
       title="medialog.magneticpopup"

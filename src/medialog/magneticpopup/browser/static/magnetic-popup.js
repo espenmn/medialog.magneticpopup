@@ -2,6 +2,8 @@ require([
     'jquery',
     '++plone++magneticpopup/jquery.magnific-popup-min'
 ], function($) {
+   var el = document.querySelector('body');
+   var image_size = el.getAttribute('data-popup-imagesize');
    $('img.image-popup, figure img, img.image-inline, img.image-left, img.image-right').magnificPopup({
     type: 'image',
     cursor: 'mfp-zoom-out-cur', 
@@ -24,7 +26,7 @@ require([
             itemsrc = item.el.attr('src');
             try {
                 image_url = itemsrc.split('/@@images')[0];
-                item.src =  image_url + '/@@images/image';
+                item.src =  image_url + '/@@images/image/' + image_size;
             }
             catch(err) {
     			item.src = itemsrc;
@@ -47,7 +49,8 @@ require([
         elementParse: function(item) {
             itemsrc = item.el.attr('src');
             try {
-                item.src = itemsrc.split("/@@images")[0];
+                image_url = itemsrc.split("/@@images")[0];
+                item.src =  image_url + '/@@images/image/' + image_size;
             }
             catch(err) {
     			item.src = itemsrc;

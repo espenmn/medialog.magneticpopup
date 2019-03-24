@@ -11,5 +11,9 @@
     <value key="depends">jquery</value>
   </records>
 
+  <records interface="medialog.magneticpopup.interfaces.IMagneticPopupSettings">
+      <value key="image_size">large</value>
+  </records>    
+ 
 </registry>
  

@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='medialog.magneticpopup',
-    version='1.0a5',
+    version='1.0a6',
     description="Add magnetic popup to Plone5",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
