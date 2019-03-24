@@ -8,10 +8,10 @@ class JavaScriptSettings(object):
         self.request = request
         self.context = context
         self.field = field
-        image_size = api.portal.get_registry_record('medialog.magneticpopup.interfaces.MagneticPopupSettings.image_size') 
+        self.image_size = api.portal.get_registry_record('medialog.magneticpopup.interfaces.IMagneticPopupSettings.image_size') 
 
         
     def __call__(self):
         return {
-            'data-popup-imagesize': image_size,
+            'data-popup-imagesize': self.image_size,
         }
