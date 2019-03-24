@@ -4,10 +4,6 @@
   <records prefix="plone.bundles/magneticpopup"
             interface='Products.CMFPlone.interfaces.IBundleRegistry' remove="True">
   </records>
-
-  <records interface="medialog.magneticpopup.interfaces.IMagneticPopupSettings">
-      <value key="image_size" remove="True"></value>
-  </records>    
- 
+  
 </registry>
  
