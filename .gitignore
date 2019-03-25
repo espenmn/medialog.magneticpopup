@@ -45,3 +45,5 @@ src/medialog/magneticpopup/profiles/.DS_Store
 src/medialog/magneticpopup/browser/.DS_Store
 
 *.gz
+
+src/medialog/magneticpopup/browser/static/.DS_Store
