@@ -4,7 +4,8 @@ require([
 ], function($) {
    var el = document.querySelector('body');
    var image_size = el.getAttribute('data-popup-imagesize');
-   $('img.image-popup, figure img, img.image-inline, img.image-left, img.image-right').magnificPopup({
+   var popup_classes = el.getAttribute('data-popup-imageclasses');
+   $(popup_classes).magnificPopup({
     type: 'image',
     cursor: 'mfp-zoom-out-cur', 
     mainClass: 'mfp-with-zoom', 

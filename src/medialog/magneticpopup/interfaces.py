@@ -30,6 +30,13 @@ class IMagneticPopupSettings(form.Schema):
         ],
      )
 
+    popup_classes = schema.Text(
+        title = _("label_popup_classes", default=u"Popup image classes"),
+        description = _("help_popupclasses",
+                      default="Popup Image Classes"),
+        default=u"img.image-popup, figure img, img.image-inline, img.image-left, img.image-right",
+    )
+    
     image_size = schema.Choice(
         title = _("label_imagesize", default=u"Image Size"),
         description = _("help_imagesize",
