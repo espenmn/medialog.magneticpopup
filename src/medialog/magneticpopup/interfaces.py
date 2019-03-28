@@ -27,6 +27,7 @@ class IMagneticPopupSettings(form.Schema):
         label=_(u'Popup settings'),
         fields=[
              'image_size',
+             'popup_classes'
         ],
      )
 
