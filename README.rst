@@ -5,7 +5,7 @@
 ==============================================================================
 medialog.magneticpopup
 ==============================================================================
-Adds popup to images in #content 
+Adds popup to images 
 
 
 Features
@@ -14,6 +14,7 @@ Features
 - If using a responsive theme, the popup image responds to the display size.
 - Upon clicking on embedded image, it pops up to its full size if display size permits, otherwise it scales down to size of display.
 - Title is taken from caption that was added to image or if none, from file name.
+- There is a control panel where you can choose image classes and image sizes
 
 
 Examples
@@ -22,12 +23,7 @@ This add-on can be seen in action at the following sites:
 
 - classroom Plone site http://sci.mpls.k12.mn.us/ 
 
-
-Documentation
--------------
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
+ 
 Translations
 ------------
 This product has been translated into
