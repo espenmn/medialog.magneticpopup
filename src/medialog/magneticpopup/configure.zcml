@@ -15,7 +15,7 @@
     factory="medialog.magneticpopup.adapters.JavaScriptSettings"
     provides="Products.CMFPlone.interfaces.IPatternsSettings"
     name="magnetic_popup_imagesize" />
-    
+
   <genericsetup:registerProfile
       name="default"
       title="medialog.magneticpopup"
@@ -34,6 +34,15 @@
       post_handler=".setuphandlers.uninstall"
       />
 
+  <genericsetup:upgradeDepends
+      profile="medialog.magneticpopup:default"
+      source="1000"
+      destination="1001"
+      title="add control panel"
+      import_profile="medialog.magneticpopup:default"
+      import_steps="plone.app.registry"
+      run_deps="false"
+    />
 
   <utility
       factory=".setuphandlers.HiddenProfiles"
