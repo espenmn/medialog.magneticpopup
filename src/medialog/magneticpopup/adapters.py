@@ -16,13 +16,11 @@ class JavaScriptSettings(object):
         except:
             return 'large'
 
-
     def get_classes(self):
         try:
             return api.portal.get_registry_record('medialog.magneticpopup.interfaces.IMagneticPopupSettings.popup_classes')
         except:
             return 'img'
-
 
     def __call__(self):
         return {
