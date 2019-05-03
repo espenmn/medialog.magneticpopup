@@ -11,7 +11,7 @@
   <include package=".browser" />
 
   <adapter
-    for="medialog.magneticpopup.interfaces.IMedialogMagneticpopupLayer"
+    for="* medialog.magneticpopup.interfaces.IMedialogMagneticpopupLayer *"
     factory="medialog.magneticpopup.adapters.JavaScriptSettings"
     provides="Products.CMFPlone.interfaces.IPatternsSettings"
     name="magnetic_popup_imagesize" />
