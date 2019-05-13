@@ -5,12 +5,12 @@
 ==============================================================================
 medialog.magneticpopup
 ==============================================================================
-Adds popup to images 
+Adds popup to images
 
 
 Features
 --------
-- Images embedded in a page, as well as the image shown on the ...jpg/view page, will popup in a jquery style lightbox. 
+- Images embedded in a page, as well as the image shown on the ...jpg/view page, will popup in a jquery style lightbox.
 - If using a responsive theme, the popup image responds to the display size.
 - Upon clicking on embedded image, it pops up to its full size if display size permits, otherwise it scales down to size of display.
 - Title is taken from caption that was added to image or if none, from file name.
@@ -21,9 +21,9 @@ Examples
 --------
 This add-on can be seen in action at the following sites:
 
-- classroom Plone site http://sci.mpls.k12.mn.us/ 
+- classroom Plone site http://sci.mpls.k12.mn.us/
 
- 
+
 Translations
 ------------
 This product has been translated into
@@ -50,17 +50,21 @@ Contribute
 
 - Issue Tracker: https://github.com/collective/medialog.magneticpopup/issues
 - Source Code: https://github.com/collective/medialog.magneticpopup
- 
+
 
 
 Support
 -------
 
 If you are having issues, please let us know.
- 
+
 
 
 License
 -------
 
 The project is licensed under the GPLv2.
+
+Upload pypi
+------------
+twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
