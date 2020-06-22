@@ -13,8 +13,7 @@
 
   <records interface="medialog.magneticpopup.interfaces.IMagneticPopupSettings">
       <value key="image_size">large</value>
-      <value key="popup_classes">img.image-popup, figure img, img.image-inline, img.image-left, img.image-right</value>
-  </records>    
- 
+      <value key="popup_classes">img.image-popup, figure:not(.no-pop-up) img, img.image-inline, img.image-left, img.image-right</value>
+  </records>
+
 </registry>
- 
