@@ -51,3 +51,9 @@ Changelog
 
   - Initial release.
     [espenmn]
+
+1.1 (05.06.2025)
+------------------
+
+  - Update for Plone 6 / python 3
+    [espenmn]
