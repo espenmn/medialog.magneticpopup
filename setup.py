@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='medialog.magneticpopup',
-    version='1.1.1',
+    version='1.2',
     description="Add magnetic popup to Plone 6",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -22,9 +22,11 @@ setup(
         "Environment :: Web Environment",
         "Framework :: Plone",
         "Framework :: Plone :: 5.0",
-         "Framework :: Plone :: 6.0",
+        "Framework :: Plone :: 6.0",
+        "Framework :: Plone :: 6.1",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3.10",
         "Operating System :: OS Independent",
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
