@@ -36,7 +36,7 @@
       prefix="plone.bundles/magneticpopup">
       <value key="enabled">True</value>
       <!-- LOAD BOTH FILES -->
-      <value key="jscompilation"> ++plone++magneticpopup/magnetic-popup.js</value>
+      <value key="jscompilation">++plone++magneticpopup/magnetic-popup.js</value>
       <value key="csscompilation">++plone++magneticpopup/magnetic-popup.css</value>
 
       <value key="load_async">False</value>
